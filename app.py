@@ -19,8 +19,7 @@ import streamlit as st
 # CONFIGURACIÓN GENERAL
 # =========================================================
 st.set_page_config(
-    page_title="SUSTREND | Visualizador territorial
-    ",
+    page_title="SUSTREND | Visualizador territorial",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
