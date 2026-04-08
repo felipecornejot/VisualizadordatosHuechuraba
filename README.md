@@ -1,13 +1,4 @@
-# SUSTREND | Visualizador territorial premium
-
-Aplicación en Streamlit para explorar estadísticas comunales con una capa visual más ejecutiva, filtros dinámicos y arquitectura pensada para **GitHub + Streamlit Cloud**.
-
-La versión actual está optimizada para despliegue estable y por eso **excluye deliberadamente** las bases más pesadas:
-
-- `PUB_COMU_SUBR.xlsb`
-- `PUB_COMU_ACT.xlsb`
-
-La interfaz y la paleta se alinean con el brandbook de SUSTREND, usando como base los colores corporativos digitales `#0033A0` y `#00A3E0` y la lógica visual del logo horizontal. fileciteturn0file0
+# SUSTREND | Visualizador territorial
 
 ---
 
@@ -46,7 +37,7 @@ tu-repo/
 
 ---
 
-## 3. Qué trae esta versión premium
+## 3. Qué trae esta versión
 
 ### Diseño y experiencia
 - hero principal más corporativo;
@@ -146,24 +137,3 @@ Además:
 - las columnas con alta consistencia numérica se convierten automáticamente a formato numérico.
 
 ---
-
-## 9. Recomendaciones prácticas para GitHub
-
-Para que Streamlit Cloud funcione fluido:
-
-- mantén solo estas 7 bases en esta primera fase;
-- deja fuera `PUB_COMU_SUBR.xlsb` y `PUB_COMU_ACT.xlsb`;
-- evita nombres de archivo distintos a los definidos en `app.py`;
-- usa `assets/logo_sustrend.png` para no depender de rutas locales;
-- si luego crece el proyecto, conviene separar datos pesados a almacenamiento externo o preprocesarlos.
-
----
-
-## 10. Próximo nivel sugerido
-
-Si quieres llevarlo todavía más arriba, el siguiente paso lógico sería:
-
-- crear una portada narrativa específica para **Huechuraba**;
-- incorporar glosario de variables y fichas metodológicas;
-- sumar comparaciones automáticas con comunas benchmark;
-- construir una versión multi-página con secciones tipo informe ejecutivo.
